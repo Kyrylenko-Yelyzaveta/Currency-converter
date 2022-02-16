@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Конвертер валют</string>
+    <string name="txtTitleName">Заголовок</string>
+    <string name="txtLastValue">Последнее значение</string>
+    <string name="change_chart">Изменить график</string>
+    <string name="month_chart">Месячный график</string>
+    <string name="week_chart">Недельный график</string>
+</resources>

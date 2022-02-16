@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CurrencyConverter</string>
+    <string name="txtTitleName">Title name</string>
+    <string name="txtLastValue">Last value</string>
+    <string name="change_chart">Change chart</string>
+    <string name="month_chart">Month chart</string>
+    <string name="week_chart">Week chart</string>
+</resources>
