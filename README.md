@@ -14,13 +14,13 @@ Android board game
 <table>
 	<tr>
 		<th width="33%">
-			First<br>
+			Start without internet<br>
 		</th>
 		<th width="33%">
-			Second<br>
+			Start with internet<br>
 		</th>
     <th width="33%">
-			Third<br>
+			Screen flip<br>
 		</th>
 	</tr>
 	<tr><!-- Prevent zebra stripes --></tr>
