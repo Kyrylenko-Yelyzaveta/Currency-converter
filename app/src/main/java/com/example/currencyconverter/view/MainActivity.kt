@@ -7,9 +7,11 @@ import com.example.currencyconverter.model.data.DefaultData
 import com.example.currencyconverter.model.network.FirebaseWorker
 import com.example.currencyconverter.model.entity.Item
 import com.example.currencyconverter.databinding.ActivityMainBinding
+import com.onesignal.OneSignal
 
 
 class MainActivity : AppCompatActivity() {
+    private val ONESIGNAL_APP_ID =  "27cea805-de05-42e9-b629-60d021237c6c"
     companion object {
         const val CRYPTO_NAME_KEY = "CRYPTO_NAME_KEY"
         const val CHARTS_NAME_KEY = "CHARTS_NAME_KEY"
@@ -31,9 +33,8 @@ class MainActivity : AppCompatActivity() {
         init()
         initObserver()
 
-
-
-
+        OneSignal.initWithContext(this)
+        OneSignal.setAppId(ONESIGNAL_APP_ID)
     }
     override fun onSaveInstanceState(outState: Bundle) { // Here You have to save count value
         super.onSaveInstanceState(outState)
